@@ -5,7 +5,7 @@
 This demo is built strictly for educational purposes only.
 It is NOT intended for live trading or financial use.
 """
-
+# NEED FULL PROJECT DM ME ON LINKEDIN www.linkedin.com/in/parthmulay
 import yfinance as yf
 import pandas as pd
 import numpy as np
@@ -37,3 +37,4 @@ elif latest["RSI_14"] > 70:
     signal = "SELL (Overbought)"
 
 print(f"\nTrading Signal for {latest.name.date()}: {signal}")
+
